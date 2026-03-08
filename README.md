@@ -7,6 +7,9 @@ This repository contains a series of Spring Framework learning tasks demonstrati
 ### 1. [01-Cookies](./01-Cookies) - Cookie Management with Servlets
 Learn how to work with HTTP cookies in a servlet-based application. This task demonstrates creating, storing, and managing cookies with Java servlets.
 
+### 2. [02-Ioc](./02-Ioc) - Inversion of Control with Spring Framework
+Understand the core principle of Spring Framework by exploring IoC containers. This task demonstrates how Spring manages object creation and dependency injection using XML configuration, comparing ApplicationContext (eager loading) and BeanFactory (lazy loading) approaches.
+
 ---
 
 ## How to Navigate
