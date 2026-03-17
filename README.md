@@ -16,6 +16,9 @@ Demonstrates Spring bean scopes (singleton and prototype), dependency injection,
 ### 4. [04-JDBC-Hr-Demo](./04-JDBC-Hr-Demo) — Spring JDBC + REST Demo
 Builds a small HR employee API using Spring Boot, `JdbcTemplate`, MySQL, and repository abstraction.
 
+### 5. [05-data-JDBC-HR](./05-data-JDBC-HR) — Spring Data JDBC HR API
+Extends the HR example using Spring Data JDBC repositories, REST controllers, and MySQL integration.
+
 ---
 
 ## How to Use This Repository
@@ -28,4 +31,4 @@ Builds a small HR employee API using Spring Boot, `JdbcTemplate`, MySQL, and rep
 
 - Java 17+ (Java 21 recommended for servlet modules)
 - Maven (or use each module's Maven Wrapper)
-- MySQL (required for `04-JDBC-Hr-Demo`)
+- MySQL (required for `04-JDBC-Hr-Demo` and `05-data-JDBC-HR`)
