@@ -1,6 +1,6 @@
 # Spring Framework Learning Tasks
 
-This repository contains a set of Spring learning projects that move from servlet basics to Spring IoC and JDBC integration.
+This repository contains a set of Spring learning projects that move from servlet basics to Spring IoC, JDBC integration, and Spring Data JPA.
 
 ## Tasks Overview
 
@@ -19,6 +19,11 @@ Builds a small HR employee API using Spring Boot, `JdbcTemplate`, MySQL, and rep
 ### 5. [05-data-JDBC-HR](./05-data-JDBC-HR) — Spring Data JDBC HR API
 Extends the HR example using Spring Data JDBC repositories, REST controllers, and MySQL integration.
 
+### 6. [06-data-jpa-hr](./06-data-jpa-hr) — Spring Data JPA HR API
+Builds the HR API with JPA entities, repository interfaces, and relational mapping between employees and departments.
+
+See module details: [06-data-jpa-hr/README.md](./06-data-jpa-hr/README.md)
+
 ---
 
 ## How to Use This Repository
@@ -31,4 +36,4 @@ Extends the HR example using Spring Data JDBC repositories, REST controllers, an
 
 - Java 17+ (Java 21 recommended for servlet modules)
 - Maven (or use each module's Maven Wrapper)
-- MySQL (required for `04-JDBC-Hr-Demo` and `05-data-JDBC-HR`)
+- MySQL (required for `04-JDBC-Hr-Demo`, `05-data-JDBC-HR`, and `06-data-jpa-hr`)

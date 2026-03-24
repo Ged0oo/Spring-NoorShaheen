@@ -4,15 +4,14 @@ info:
   seq: 1
 
 http:
-  method: POST
-  url: http://localhost:8080/employee/new
+  method: GET
+  url: http://localhost:8080/employee/department/10
   body:
     type: json
     data: |2-
         {
-          "id": 102660,
-          "name": "Mohamed Nagy",
-          "salary": 400
+          "dno": 12,
+          "name": "Managment"
         }
   auth: inherit
 
