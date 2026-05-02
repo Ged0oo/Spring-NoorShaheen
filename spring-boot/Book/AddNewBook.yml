@@ -1,0 +1,25 @@
+info:
+  name: AddNewBook
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: http://localhost:9090/books
+  body:
+    type: json
+    data: |-
+      {
+        "author": {
+          "id": 1
+        },
+        "name": "Nagy New Book",
+        "price": 200.0
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

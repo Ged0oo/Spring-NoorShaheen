@@ -24,6 +24,11 @@ Builds the HR API with JPA entities, repository interfaces, and relational mappi
 
 See module details: [06-data-jpa-hr/README.md](./06-data-jpa-hr/README.md)
 
+### 7. [10-data-jpa-books-project](./10-data-jpa-books-project) — Spring Data JPA Books API
+Demonstrates a simple books management API with `Author` and `Book` entities, a many-to-one relationship, and CRUD endpoints built with Spring Data JPA.
+
+See module details: [10-data-jpa-books-project/README.md](./10-data-jpa-books-project/README.md)
+
 ---
 
 ## How to Use This Repository
@@ -31,6 +36,7 @@ See module details: [06-data-jpa-hr/README.md](./06-data-jpa-hr/README.md)
 - Open any task folder and follow its README file.
 - Build each module independently using Maven Wrapper (`./mvnw`).
 - Start with `01-Cookies` and continue in order for a gradual learning path.
+- For the JPA demos, compare how the HR module and the books module model relationships in different business domains.
 
 ## Prerequisites
 

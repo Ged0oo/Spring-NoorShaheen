@@ -1,18 +1,19 @@
 info:
-  name: test
+  name: UpdateBook
   type: http
   seq: 1
 
 http:
-  method: GET
-  url: http://localhost:8080/employee/department/10
+  method: PUT
+  url: http://localhost:9090/books/4
   body:
     type: json
-    data: |2-
-        {
-          "dno": 12,
-          "name": "Managment"
+    data: |-
+      {
+        "author":{
+          "id": 1
         }
+      }
   auth: inherit
 
 settings:
