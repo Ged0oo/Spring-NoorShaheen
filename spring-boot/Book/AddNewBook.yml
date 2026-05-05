@@ -11,9 +11,9 @@ http:
     data: |-
       {
         "author": {
-          "id": 1
+          "id": 4
         },
-        "name": "Nagy New Book",
+        "name": "BlueELphent",
         "price": 200.0
       }
   auth: inherit
