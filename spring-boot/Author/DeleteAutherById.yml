@@ -5,7 +5,7 @@ info:
 
 http:
   method: DELETE
-  url: http://localhost:9090/authors/3
+  url: http://localhost:9090/authors/69fc4f0fa6fe77a74136346c
   body:
     type: json
     data: ""

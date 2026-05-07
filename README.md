@@ -42,6 +42,12 @@ An expanded version of the books demo that adds author-to-books collection handl
 
 See module details: [11-data-jpa-books-project/README.md](./11-data-jpa-books-project/README.md)
 
+### 9. [14-spring-mongodb-demo](./14-spring-mongodb-demo) — Spring Data MongoDB Author API
+
+Demonstrates a MongoDB-backed author service with a generic CRUD base class, unique author names, a custom `MongoTemplate` update path, and a lookup by email.
+
+See module details: [14-spring-mongodb-demo/README.md](./14-spring-mongodb-demo/README.md)
+
 ---
 
 ## How to Use This Repository

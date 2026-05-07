@@ -1,11 +1,11 @@
 info:
-  name: GetAuthorById
+  name: GetAuthorByEmail
   type: http
-  seq: 2
+  seq: 6
 
 http:
   method: GET
-  url: http://localhost:9090/authors/69fc4f0fa6fe77a74136346c
+  url: http://localhost:9090/authors/email/nagy@ex.com
   body:
     type: json
     data: ""

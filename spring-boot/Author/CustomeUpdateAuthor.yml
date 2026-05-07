@@ -1,7 +1,7 @@
 info:
-  name: UpdateAuthor
+  name: CustomeUpdateAuthor
   type: http
-  seq: 1
+  seq: 7
 
 http:
   method: PUT
